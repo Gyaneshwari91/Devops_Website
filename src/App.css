@@ -11,6 +11,14 @@ a a:hover{
   color: rgb(224, 224, 224);
   text-decoration: none;
 }
+.activeNavLink{
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+}
+.inActiveNavLink{
+  color: #aeaeae;
+  text-decoration: none;
+}
 video{
   object-fit: cover;
   left: 0;
