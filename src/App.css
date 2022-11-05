@@ -2,7 +2,15 @@
   text-align: center;
   /* background-color: #d4f0f7; */
 }
-
+a a{
+  text-decoration: none;
+  color: #aeaeae;
+  
+}
+a a:hover{
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+}
 video{
   object-fit: cover;
   left: 0;

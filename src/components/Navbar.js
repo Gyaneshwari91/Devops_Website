@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavBar() {
@@ -10,10 +11,10 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="/">IEEE DevOps</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/gitHub">GitHub</Nav.Link>
-            <Nav.Link href="/docker">Docker</Nav.Link>
-            <Nav.Link href="/kubernetes">Kubernetes</Nav.Link>
-            <Nav.Link href="/gcp">GCP</Nav.Link>
+          <Nav.Link><Link to="/docker">Docker</Link></Nav.Link>
+          <Nav.Link><Link to="/github">GitHub</Link></Nav.Link>
+          <Nav.Link><Link to="/kubernetes">Kubernetes</Link></Nav.Link>
+          <Nav.Link><Link to="/gcp">GCP</Link></Nav.Link>
           </Nav>
         </Container>
       </Navbar>
