@@ -10,7 +10,6 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="/">IEEE DevOps</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/gitHub">GitHub</Nav.Link>
             <Nav.Link href="/docker">Docker</Nav.Link>
             <Nav.Link href="/kubernetes">Kubernetes</Nav.Link>
