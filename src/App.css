@@ -2,6 +2,10 @@
   text-align: center;
   /* background-color: #d4f0f7; */
 }
+span a{
+  color: #fff;
+  text-decoration: none;
+}
 a a{
   text-decoration: none;
   color: #aeaeae;

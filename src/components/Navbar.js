@@ -10,7 +10,7 @@ function NavBar() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">IEEE DevOps</Navbar.Brand>
+          <Navbar.Brand > <Link to="/">IEEE DevOps</Link></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link>
               <Link to="/docker" className={location.pathname==="/docker"?"activeNavLink":""} >Docker</Link>
