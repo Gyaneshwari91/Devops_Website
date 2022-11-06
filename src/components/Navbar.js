@@ -13,10 +13,10 @@ function NavBar() {
           <Navbar.Brand > <Link to="/">IEEE DevOps</Link></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link>
-              <Link to="/docker" className={location.pathname==="/docker"?"activeNavLink":""} >Docker</Link>
+              <Link to="/github" className={location.pathname==="/github"?"activeNavLink":""}>GitHub</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/github" className={location.pathname==="/github"?"activeNavLink":""}>GitHub</Link>
+              <Link to="/docker" className={location.pathname==="/docker"?"activeNavLink":""} >Docker</Link>
             </Nav.Link>
             <Nav.Link>
               <Link to="/kubernetes" className={location.pathname==="/kubernetes"?"activeNavLink":""}>Kubernetes</Link>
