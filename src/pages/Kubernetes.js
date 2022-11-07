@@ -4,7 +4,7 @@ import kube_img from "../images/Kubernetes-removebg-preview.png"
 function Kubernetes() {
     return (
         <div className="kube_page">
-            <h1><b>Kubernetes</b> </h1>
+            <h1 style={{textAlign:'center'}}><b>Kubernetes</b> </h1>
 
             <p style={{ fontSize: 20, fontWeight: 600 }}>
                 Kubernetes is an open source container orchestration
@@ -13,7 +13,7 @@ function Kubernetes() {
                 and rely on a container-based infrastructure in production environments. And
                 because Kubernetes is all about automation of operational tasks, you can do many
                 of the same things other application platforms or management systems let you do,
-                but for your containers. Under Kubernetes the main points to be discussed are:
+                but for your containers. <br/><br/>Under Kubernetes the main points to be discussed are:
             </p>
             <br />
             <ul className="kube_points">

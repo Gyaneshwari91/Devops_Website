@@ -1,13 +1,13 @@
 .kube_page{
-    text-align:center;
-    padding: 20px;
+    text-align:left;
+    padding: 40px;
 }
 
 .kube_points{
     font-Size: 20px;
     font-weight: 600;
     position: absolute;
-    left: 500px;
+    left: 550px;
     align-items: center;
     text-align: left;
     list-style-position: inside;
@@ -15,8 +15,21 @@
 
 .kube_img{
     position:absolute;
-    top: 300px;
+    top: 350px;
     left: 10px;
+}
+
+.gcp_img2{
+    position:absolute;
+    top: 300px;
+    left: -5px; 
+}
+
+.gcp_img1{
+    position:absolute;
+    top: 350px;
+    left: 780px; 
+    size: 0rem;
 }
 
 .pages{
